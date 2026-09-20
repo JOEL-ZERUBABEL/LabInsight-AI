@@ -1,0 +1,62 @@
+                USER REPORT
+                     │
+                     ▼
+            ┌─────────────────┐
+            │ Agent 1         │
+            │ Report Analyst  │
+            │     LLM         │
+            └────────┬────────┘
+                     │
+                     ▼
+            ┌─────────────────┐
+            │ Agent 2         │
+            │ Medical         │
+            │ Knowledge Agent │
+            │   LLM + RAG    │
+            └────────┬────────┘
+                     │
+                     ▼
+            ┌─────────────────┐
+            │ Agent 3         │
+            │ Context Agent   │
+            │   LLM + RAG    │
+            └────────┬────────┘
+                     │
+                     ▼
+            ┌─────────────────┐
+            │ Agent 4         │
+            │ Safety /        │
+            │ Uncertainty     │
+            │     LLM         │
+            └────────┬────────┘
+                     │
+                     ▼
+                  RESULT
+
+
+1. Define Agent4 fields
+        ↓
+2. Receive Agent3 output
+        ↓
+3. Create LLM prompt
+        ↓
+4. Get structured LLM output
+        ↓
+5. Return it to LangGraph state
+
+
+
+   test_name: str
+    value: float
+    unit: str
+    interpretation: str!
+    priority: str!
+    reason: str!
+
+
+   report_text:str
+    test_name:str
+    value:float
+    unit:str
+    reference_range:str
+    report_date:str

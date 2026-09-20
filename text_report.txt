@@ -1,0 +1,17 @@
+PATIENT LABORATORY REPORT
+
+Test Name: HbA1c
+Result: 8.2 %
+Reference Range: 4.0 - 5.6 %
+
+Test Name: Hemoglobin
+Result: 13.5 g/dL
+Reference Range: 13.0 - 17.0 g/dL
+
+Test Name: Total Cholesterol
+Result: 210 mg/dL
+Reference Range: 125 - 200 mg/dL
+
+Test Name: Vitamin D
+Result: 18 ng/mL
+Reference Range: 30 - 100 ng/mL
